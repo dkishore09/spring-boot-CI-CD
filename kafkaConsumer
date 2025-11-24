@@ -41,11 +41,5 @@ sdfsdfsdf
     } catch (InvalidProtocolBufferException e) {
       log.error("Error deserializing event {}", e.getMessage());
     }
-catch (InvalidProtocolBufferException e) {
-      log.error("Error deserializing event {}", e.getMessage());
-    }
-catch (InvalidProtocolBufferException e) {
-      log.error("Error deserializing event {}", e.getMessage());
-    }
   }
 }
