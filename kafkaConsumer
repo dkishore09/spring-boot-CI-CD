@@ -32,6 +32,10 @@ log.info("Received Patient Event: [PatientId={},PatientName={},PatientEmail={}]"
             patientEvent.getPatientId(),
             patientEvent.getName(),
             patientEvent.getEmail());
+log.info("Received Patient Event: [PatientId={},PatientName={},PatientEmail={}]",
+            patientEvent.getPatientId(),
+            patientEvent.getName(),
+            patientEvent.getEmail());
 System.out.prinntln("sadasf");
 dsfsdfds
 sdfsdfsd
