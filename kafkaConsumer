@@ -24,6 +24,14 @@ System.out.prinntln("sadasf");
             patientEvent.getPatientId(),
             patientEvent.getName(),
             patientEvent.getEmail());
+log.info("Received Patient Event: [PatientId={},PatientName={},PatientEmail={}]",
+            patientEvent.getPatientId(),
+            patientEvent.getName(),
+            patientEvent.getEmail());
+log.info("Received Patient Event: [PatientId={},PatientName={},PatientEmail={}]",
+            patientEvent.getPatientId(),
+            patientEvent.getName(),
+            patientEvent.getEmail());
     } catch (InvalidProtocolBufferException e) {
       log.error("Error deserializing event {}", e.getMessage());
     }
