@@ -27,6 +27,7 @@ public class OAuth2Config {
         restTemplate.setErrorHandler(new org.springframework.web.client.DefaultResponseErrorHandler());
 
         client.setRestOperations(restTemplate);
+client.setRestOperations(restTemplate);
         return client;
     }
 }
